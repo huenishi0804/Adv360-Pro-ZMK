@@ -6,21 +6,22 @@
     "base",
     "keypad",
     "fn",
-    "mod"
+    "mod",
+    "windows"
   ],
   "layers": [
     [
-       "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                          "&mo 2",                                                                                                         "&mo 3", "&kp N6",   "&kp N7",    "&kp N8",   "&kp N9",   "&kp N0", "&kp MINUS",
+       "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                          "&mo 4",                                                                                                         "&mo 3", "&kp N6",   "&kp N7",    "&kp N8",   "&kp N9",   "&kp N0", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",                        "&kp F10",                                                                                        "&macro_vim_anywhere_on",  "&kp Y",    "&kp U",     "&kp I",    "&kp O",    "&kp P",  "&kp BSLH",
          "&kp ESC",     "&kp A",    "&kp S",    "&kp D",     "&kp F",  "&kp G",           "&mt LC(LEFT_SHIFT) L", "&kp LCTRL",         "&kp LALT",                              "&kp BSLH", "&kp RCTRL",   "&mt LC(LEFT_SHIFT) J",  "&kp H",    "&kp J",     "&kp K",    "&kp L", "&kp SEMI",   "&kp SQT",
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",  "&kp B",                                                       "&kp SPACE",                             "&kp LANG1",                                         "&kp N",    "&kp M", "&kp COMMA",  "&kp DOT", "&kp FSLH", "&kp RSHFT",
-           "&to 0", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                                 "&kp BSPC",   "&kp DEL", "&kp LEFT_COMMAND",                     "&kp RIGHT_COMMAND", "&kp ENTER",              "&kp SPACE",           "&kp DOWN",    "&kp UP", "&kp LBKT", "&kp RBKT",     "&to 1"
+           "&mo 1", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                                 "&kp BSPC",   "&kp DEL", "&kp LEFT_COMMAND",                     "&kp RIGHT_COMMAND", "&kp ENTER",              "&kp SPACE",           "&kp DOWN",    "&kp UP", "&kp LBKT", "&kp RBKT",     "&mo 1"
     ], [
-       "&kp EQUAL",          "&kp N1",    "&kp N2",    "&kp N3",     "&kp N4",      "&kp N5",             "&trans",                                                                            "&mo 3",    "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL",        "&kp KP_DIVIDE",       "&kp KP_MULTIPLY", "&kp MINUS",
-        "&kp PLUS", "&kp EXCLAMATION",    "&kp AT",  "&kp HASH", "&kp DOLLAR", "&kp PERCENT",              "&none",                                                                            "&none", "&kp CARET",  "&kp KP_N7", "&kp ASTERISK", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp UNDER",
-       "&kp EQUAL", "&kp KP_NUMBER_1", "&kp KP_N2", "&kp KP_N3",  "&kp KP_N4",   "&kp KP_N5",              "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none", "&kp KP_N6",  "&kp KP_N7",    "&kp KP_N8",            "&kp KP_N9",             "&kp KP_N0", "&kp MINUS",
-       "&kp LSHFT",           "&none",     "&none",     "&none",      "&none",       "&none",                                    "&kp HOME",                     "&kp PG_UP",                               "&none",      "&none",        "&none",                "&none",                 "&none", "&kp RSHFT",
-           "&mo 2",       "&kp GRAVE",  "&kp CAPS",  "&kp LEFT",  "&kp RIGHT",                          "&kp BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp KP_N0",                  "&kp UP",     "&kp DOWN",           "&kp KP_DOT",              "&kp RBKT",     "&mo 2"
+           "&none",           "&none",     "&none",     "&none",      "&none",       "&none",             "&trans",                                                                            "&mo 3",     "&none",     "&none",        "&none",                "&none",                 "&none",     "&none",
+        "&kp PLUS", "&kp EXCLAMATION",    "&kp AT",  "&kp HASH", "&kp DOLLAR", "&kp PERCENT",              "&none",                                                                            "&none", "&kp CARET", "&kp KP_N7", "&kp ASTERISK", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp UNDER",
+       "&kp EQUAL", "&kp KP_NUMBER_1", "&kp KP_N2", "&kp KP_N3",  "&kp KP_N4",   "&kp KP_N5",              "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none", "&kp KP_N6", "&kp KP_N7",    "&kp KP_N8",            "&kp KP_N9",             "&kp KP_N0", "&kp MINUS",
+       "&kp LSHFT",           "&none",     "&none",     "&none",      "&none",       "&none",                                    "&kp HOME",                     "&kp PG_UP",                               "&none",     "&none",        "&none",                "&none",                 "&none", "&kp RSHFT",
+           "&mo 2",       "&kp GRAVE",  "&kp CAPS",  "&kp LEFT",  "&kp RIGHT",                          "&kp BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp KP_N0",                 "&kp UP",     "&kp DOWN",           "&kp KP_DOT",              "&kp RBKT",     "&mo 2"
     ], [
        "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",           "&tog 1",                                                              "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",                                                              "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
@@ -33,6 +34,12 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&rgb_ug RGB_MEFS_CMD 5",      "&none", "&bt BT_CLR",                     "&bt BT_CLR", "&bt BT_CLR", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",           "&none",      "&none",      "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                                        "&none",                          "&none",                                          "&none",      "&none",           "&none",      "&none",      "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                       "&bl BL_INC", "&bl BL_DEC",      "&none",                     "&bl BL_TOG",      "&none",                  "&none",           "&bl BL_TOG", "&rgb_ug RGB_TOG", "&bl BL_INC", "&bl BL_DEC",  "&none"
+    ], [
+               "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                   "&mo 0",                                                                              "&mo 3", "&trans", "&trans", "&trans", "&trans",        "&trans",          "&trans",
+              "&kp TAB",  "&kp Q",  "&kp W",  "&kp E",  "&kp R",  "&kp T",                  "&trans",                                                                             "&trans",  "&kp Y",  "&kp U",  "&kp I",  "&kp O",         "&kp P",         "&kp TAB",
+              "&kp ESC",  "&kp A",  "&kp S",  "&kp D",  "&kp F",  "&kp G",                  "&trans",     "&trans",    "&trans",                      "&kp BSLH",    "&trans",    "&trans",  "&kp H",  "&kp J",  "&kp K",  "&kp L", "&kp SEMICOLON",           "&kp A",
+       "&kp LEFT_SHIFT",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",  "&kp B",                                          "&kp SPACE",                        "&trans",                            "&kp N",  "&kp M", "&trans", "&trans",        "&trans", "&kp RIGHT_SHIFT",
+                "&mo 1", "&trans", "&trans", "&trans", "&trans",                     "&kp BACKSPACE", "&kp DELETE", "&kp LCTRL",                     "&kp RCTRL", "&kp ENTER", "&kp SPACE",           "&trans", "&trans", "&trans",        "&trans",           "&mo 1"
     ]
   ]
 }
